@@ -1,0 +1,1 @@
+import{j as o,x as t}from"./index-C3Xd-XFF.js";const c=({children:a,className:e,elevated:s,onClick:r})=>o.jsx("div",{className:t("rounded-xl border border-border",s?"bg-card-elevated":"bg-card",r&&"cursor-pointer active:scale-98 transition-transform",e),onClick:r,children:a});export{c as C};

@@ -1,0 +1,1677 @@
+{
+  "version": "0.4",
+  "title": "Protocolo Neuro Reconquista",
+  "type": "page",
+  "content": [
+    {
+      "id": "s001hero",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#2A1E5C",
+        "padding": { "unit": "px", "top": "80", "right": "20", "bottom": "80", "left": "20", "isLinked": false },
+        "content_width": "boxed"
+      },
+      "elements": [
+        {
+          "id": "c001a",
+          "elType": "column",
+          "settings": { "_column_size": 55, "content_position": "middle" },
+          "elements": [
+            {
+              "id": "w001label",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "METODOLOGIA",
+                "header_size": "h6",
+                "align": "left",
+                "title_color": "#C9A44C",
+                "typography_typography": "custom",
+                "typography_font_size": { "unit": "px", "size": 12 },
+                "typography_font_weight": "700",
+                "typography_letter_spacing": { "unit": "px", "size": 3 },
+                "typography_text_transform": "uppercase",
+                "_margin": { "unit": "px", "top": "0", "right": "0", "bottom": "16", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+            {
+              "id": "w002h1",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Uma nova forma de entender a reconquista emocional",
+                "header_size": "h1",
+                "align": "left",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": { "unit": "px", "size": 48 },
+                "typography_font_size_tablet": { "unit": "px", "size": 36 },
+                "typography_font_size_mobile": { "unit": "px", "size": 28 },
+                "typography_font_weight": "700",
+                "typography_line_height": { "unit": "em", "size": 1.2 },
+                "_margin": { "unit": "px", "top": "0", "right": "0", "bottom": "24", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+            {
+              "id": "w003sub",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"font-size:18px;color:rgba(255,255,255,0.80);line-height:1.75;\">Conhe\u00e7a o Protocolo Neuro Reconquista, um m\u00e9todo estruturado baseado em comportamento, psicologia e din\u00e2mica de atra\u00e7\u00e3o.</p>",
+                "_margin": { "unit": "px", "top": "0", "right": "0", "bottom": "32", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+            {
+              "id": "w004divh",
+              "elType": "widget",
+              "widgetType": "divider",
+              "settings": {
+                "color": "#C9A44C",
+                "width": { "unit": "px", "size": 48 },
+                "weight": { "unit": "px", "size": 3 },
+                "align": "left"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "c001b",
+          "elType": "column",
+          "settings": {
+            "_column_size": 45,
+            "content_position": "middle",
+            "padding": { "unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "48", "isLinked": false }
+          },
+          "elements": [
+            {
+              "id": "w005img",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": { "url": "https://placehold.co/580x520/3D2E8A/C9A44C?text=Cristina+Fernandez", "id": "" },
+                "image_size": "full",
+                "align": "center",
+                "width": { "unit": "%", "size": 100 },
+                "image_border_radius": { "top": "4", "right": "4", "bottom": "4", "left": "4", "unit": "px" }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s002statsbar",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#F5F5F5",
+        "padding": { "unit": "px", "top": "32", "right": "20", "bottom": "32", "left": "20", "isLinked": false },
+        "content_width": "boxed"
+      },
+      "elements": [
+        {
+          "id": "c002a",
+          "elType": "column",
+          "settings": { "_column_size": 33 },
+          "elements": [
+            {
+              "id": "w010stat1",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align:center;\"><span style=\"font-size:32px;font-weight:700;color:#2A1E5C;\">5 Fases</span><br><span style=\"font-size:14px;color:#4B4F58;\">de transforma\u00e7\u00e3o estruturada</span></p>"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "c002b",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33,
+            "border_left_width": { "unit": "px", "size": 1 },
+            "border_color": "#eaeaea"
+          },
+          "elements": [
+            {
+              "id": "w011stat2",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align:center;\"><span style=\"font-size:32px;font-weight:700;color:#2A1E5C;\">3 Pilares</span><br><span style=\"font-size:14px;color:#4B4F58;\">psicologia, comportamento e atra\u00e7\u00e3o</span></p>"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "c002c",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33,
+            "border_left_width": { "unit": "px", "size": 1 },
+            "border_color": "#eaeaea"
+          },
+          "elements": [
+            {
+              "id": "w012stat3",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align:center;\"><span style=\"font-size:32px;font-weight:700;color:#2A1E5C;\">100%</span><br><span style=\"font-size:14px;color:#4B4F58;\">baseado em ci\u00eancia comportamental</span></p>"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s003oqe",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": { "unit": "px", "top": "72", "right": "20", "bottom": "72", "left": "20", "isLinked": false },
+        "content_width": "boxed"
+      },
+      "elements": [
+        {
+          "id": "c003left",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50,
+            "content_position": "middle",
+            "padding": { "unit": "px", "top": "0", "right": "48", "bottom": "0", "left": "0", "isLinked": false }
+          },
+          "elements": [
+            {
+              "id": "w020label",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "O M\u00c9TODO",
+                "header_size": "h6",
+                "align": "left",
+                "title_color": "#C9A44C",
+                "typography_typography": "custom",
+                "typography_font_size": { "unit": "px", "size": 12 },
+                "typography_font_weight": "700",
+                "typography_letter_spacing": { "unit": "px", "size": 3 },
+                "typography_text_transform": "uppercase",
+                "_margin": { "unit": "px", "top": "0", "right": "0", "bottom": "12", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+            {
+              "id": "w021h2",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "O que \u00e9 o Protocolo Neuro Reconquista?",
+                "header_size": "h2",
+                "align": "left",
+                "title_color": "#2A1E5C",
+                "typography_typography": "custom",
+                "typography_font_size": { "unit": "px", "size": 36 },
+                "typography_font_size_tablet": { "unit": "px", "size": 28 },
+                "typography_font_size_mobile": { "unit": "px", "size": 24 },
+                "typography_font_weight": "700",
+                "typography_line_height": { "unit": "em", "size": 1.25 },
+                "_margin": { "unit": "px", "top": "0", "right": "0", "bottom": "20", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+            {
+              "id": "w022divl",
+              "elType": "widget",
+              "widgetType": "divider",
+              "settings": {
+                "color": "#C9A44C",
+                "width": { "unit": "px", "size": 40 },
+                "weight": { "unit": "px", "size": 3 },
+                "align": "left",
+                "_margin": { "unit": "px", "top": "0", "right": "0", "bottom": "24", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+            {
+              "id": "w023txt",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"font-size:16px;color:#4B4F58;line-height:1.85;margin-bottom:16px;\">O Protocolo Neuro Reconquista \u00e9 uma metodologia estruturada que combina princ\u00edpios da psicologia comportamental, neuroci\u00eancia das emo\u00e7\u00f5es e din\u00e2micas de atra\u00e7\u00e3o para ajudar pessoas a compreenderem e reconstruirem v\u00ednculos afetivos de forma consciente.</p><p style=\"font-size:16px;color:#4B4F58;line-height:1.85;\">Diferente de abordagens superficiais, este m\u00e9todo trabalha com os mecanismos reais que regem o comportamento humano em relacionamentos, oferecendo um caminho claro e progressivo rumo \u00e0 reconex\u00e3o emocional genuina.</p>"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "c003right",
+          "elType": "column",
+          "settings": { "_column_size": 50, "content_position": "middle" },
+          "elements": [
+            {
+              "id": "w024card1",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "icon": { "value": "fas fa-heart", "library": "fa-solid" },
+                "icon_color": "#2A1E5C",
+                "icon_size": { "unit": "px", "size": 22 },
+                "title_text": "Reconex\u00e3o Emocional",
+                "title_size": "h5",
+                "description_text": "Compreender as din\u00e2micas que influenciam a atra\u00e7\u00e3o e criar novos caminhos de aproxima\u00e7\u00e3o sustent\u00e1veis.",
+                "position": "left",
+                "title_color": "#2A1E5C",
+                "description_color": "#4B4F58",
+                "title_typography_typography": "custom",
+                "title_typography_font_size": { "unit": "px", "size": 16 },
+                "title_typography_font_weight": "700",
+                "description_typography_typography": "custom",
+                "description_typography_font_size": { "unit": "px", "size": 14 },
+                "_margin": { "unit": "px", "top": "0", "right": "0", "bottom": "20", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+            {
+              "id": "w025div1",
+              "elType": "widget",
+              "widgetType": "divider",
+              "settings": {
+                "color": "#eaeaea",
+                "width": { "unit": "%", "size": 100 },
+                "weight": { "unit": "px", "size": 1 },
+                "_margin": { "unit": "px", "top": "0", "right": "0", "bottom": "20", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+            {
+              "id": "w026card2",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "icon": { "value": "fas fa-user-check", "library": "fa-solid" },
+                "icon_color": "#2A1E5C",
+                "icon_size": { "unit": "px", "size": 22 },
+                "title_text": "Reposicionamento Pessoal",
+                "title_size": "h5",
+                "description_text": "Trabalhar identidade e autoestima para se tornar naturalmente mais atraente sem depender da aprova\u00e7\u00e3o do outro.",
+                "position": "left",
+                "title_color": "#2A1E5C",
+                "description_color": "#4B4F58",
+                "title_typography_typography": "custom",
+                "title_typography_font_size": { "unit": "px", "size": 16 },
+                "title_typography_font_weight": "700",
+                "description_typography_typography": "custom",
+                "description_typography_font_size": { "unit": "px", "size": 14 },
+                "_margin": { "unit": "px", "top": "0", "right": "0", "bottom": "20", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+            {
+              "id": "w027div2",
+              "elType": "widget",
+              "widgetType": "divider",
+              "settings": {
+                "color": "#eaeaea",
+                "width": { "unit": "%", "size": 100 },
+                "weight": { "unit": "px", "size": 1 },
+                "_margin": { "unit": "px", "top": "0", "right": "0", "bottom": "20", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+            {
+              "id": "w028card3",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "icon": { "value": "fas fa-comments", "library": "fa-solid" },
+                "icon_color": "#2A1E5C",
+                "icon_size": { "unit": "px", "size": 22 },
+                "title_text": "Comunica\u00e7\u00e3o Estrat\u00e9gica",
+                "title_size": "h5",
+                "description_text": "Desenvolver formas de comunica\u00e7\u00e3o que geram conex\u00e3o genuina e reconstroem a intimidade de modo consciente.",
+                "position": "left",
+                "title_color": "#2A1E5C",
+                "description_color": "#4B4F58",
+                "title_typography_typography": "custom",
+                "title_typography_font_size": { "unit": "px", "size": 16 },
+                "title_typography_font_weight": "700",
+                "description_typography_typography": "custom",
+                "description_typography_font_size": { "unit": "px", "size": 14 }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s004howttitle",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#F2F5F7",
+        "padding": { "unit": "px", "top": "72", "right": "20", "bottom": "16", "left": "20", "isLinked": false },
+        "content_width": "boxed"
+      },
+      "elements": [
+        {
+          "id": "c004t",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "w030label",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "AS 5 FASES",
+                "header_size": "h6",
+                "align": "center",
+                "title_color": "#C9A44C",
+                "typography_typography": "custom",
+                "typography_font_size": { "unit": "px", "size": 12 },
+                "typography_font_weight": "700",
+                "typography_letter_spacing": { "unit": "px", "size": 3 },
+                "typography_text_transform": "uppercase",
+                "_margin": { "unit": "px", "top": "0", "right": "0", "bottom": "12", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+            {
+              "id": "w031h2",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Como funciona o m\u00e9todo",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#2A1E5C",
+                "typography_typography": "custom",
+                "typography_font_size": { "unit": "px", "size": 36 },
+                "typography_font_size_tablet": { "unit": "px", "size": 28 },
+                "typography_font_size_mobile": { "unit": "px", "size": 24 },
+                "typography_font_weight": "700",
+                "_margin": { "unit": "px", "top": "0", "right": "0", "bottom": "12", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+            {
+              "id": "w032sub",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align:center;font-size:16px;color:#4B4F58;line-height:1.75;max-width:600px;margin:0 auto;\">O protocolo \u00e9 dividido em cinco fases progressivas, cada uma com objetivos claros e ferramentas espec\u00edficas.</p>"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s005ph123",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#F2F5F7",
+        "padding": { "unit": "px", "top": "40", "right": "20", "bottom": "16", "left": "20", "isLinked": false },
+        "content_width": "boxed",
+        "gap": "default"
+      },
+      "elements": [
+        {
+          "id": "c005a",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33,
+            "background_background": "classic",
+            "background_color": "#FFFFFF",
+            "border_border": "solid",
+            "border_width": { "top": "1", "right": "1", "bottom": "1", "left": "1", "unit": "px" },
+            "border_color": "#eaeaea",
+            "border_radius": { "top": "4", "right": "4", "bottom": "4", "left": "4", "unit": "px" },
+            "box_shadow_box_shadow_type": "yes",
+            "box_shadow_box_shadow": { "horizontal": 0, "vertical": 2, "blur": 8, "spread": 0, "color": "rgba(0,0,0,0.06)" },
+            "padding": { "unit": "px", "top": "36", "right": "28", "bottom": "36", "left": "28", "isLinked": false }
+          },
+          "elements": [
+            {
+              "id": "w040num1",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "01",
+                "header_size": "h2",
+                "align": "left",
+                "title_color": "#eaeaea",
+                "typography_typography": "custom",
+                "typography_font_size": { "unit": "px", "size": 48 },
+                "typography_font_weight": "700",
+                "_margin": { "unit": "px", "top": "0", "right": "0", "bottom": "16", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+            {
+              "id": "w041icon1",
+              "elType": "widget",
+              "widgetType": "icon",
+              "settings": {
+                "icon": { "value": "fas fa-wind", "library": "fa-solid" },
+                "size": { "unit": "px", "size": 28 },
+                "primary_color": "#C9A44C",
+                "align": "left",
+                "_margin": { "unit": "px", "top": "0", "right": "0", "bottom": "12", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+            {
+              "id": "w042h3a",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Desintoxica\u00e7\u00e3o Emocional",
+                "header_size": "h4",
+                "align": "left",
+                "title_color": "#2A1E5C",
+                "typography_typography": "custom",
+                "typography_font_size": { "unit": "px", "size": 18 },
+                "typography_font_weight": "700",
+                "_margin": { "unit": "px", "top": "0", "right": "0", "bottom": "10", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+            {
+              "id": "w043txt1",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"font-size:14px;color:#4B4F58;line-height:1.75;\">Interromper padr\u00f5es de comportamento reativo. Aprenda a gerenciar emo\u00e7\u00f5es intensas e reconstruir sua estabilidade interna antes de qualquer a\u00e7\u00e3o.</p>"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "c005b",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33,
+            "background_background": "classic",
+            "background_color": "#FFFFFF",
+            "border_border": "solid",
+            "border_width": { "top": "1", "right": "1", "bottom": "1", "left": "1", "unit": "px" },
+            "border_color": "#eaeaea",
+            "border_radius": { "top": "4", "right": "4", "bottom": "4", "left": "4", "unit": "px" },
+            "box_shadow_box_shadow_type": "yes",
+            "box_shadow_box_shadow": { "horizontal": 0, "vertical": 2, "blur": 8, "spread": 0, "color": "rgba(0,0,0,0.06)" },
+            "padding": { "unit": "px", "top": "36", "right": "28", "bottom": "36", "left": "28", "isLinked": false }
+          },
+          "elements": [
+            {
+              "id": "w044num2",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "02",
+                "header_size": "h2",
+                "align": "left",
+                "title_color": "#eaeaea",
+                "typography_typography": "custom",
+                "typography_font_size": { "unit": "px", "size": 48 },
+                "typography_font_weight": "700",
+                "_margin": { "unit": "px", "top": "0", "right": "0", "bottom": "16", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+            {
+              "id": "w045icon2",
+              "elType": "widget",
+              "widgetType": "icon",
+              "settings": {
+                "icon": { "value": "fas fa-user-tie", "library": "fa-solid" },
+                "size": { "unit": "px", "size": 28 },
+                "primary_color": "#C9A44C",
+                "align": "left",
+                "_margin": { "unit": "px", "top": "0", "right": "0", "bottom": "12", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+            {
+              "id": "w046h3b",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Reposicionamento Pessoal",
+                "header_size": "h4",
+                "align": "left",
+                "title_color": "#2A1E5C",
+                "typography_typography": "custom",
+                "typography_font_size": { "unit": "px", "size": 18 },
+                "typography_font_weight": "700",
+                "_margin": { "unit": "px", "top": "0", "right": "0", "bottom": "10", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+            {
+              "id": "w047txt2",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"font-size:14px;color:#4B4F58;line-height:1.75;\">Reconectar-se com sua identidade e valores. Se tornar genuinamente mais atraente e seguro sem depender da aprova\u00e7\u00e3o externa.</p>"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "c005c",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33,
+            "background_background": "classic",
+            "background_color": "#FFFFFF",
+            "border_border": "solid",
+            "border_width": { "top": "1", "right": "1", "bottom": "1", "left": "1", "unit": "px" },
+            "border_color": "#eaeaea",
+            "border_radius": { "top": "4", "right": "4", "bottom": "4", "left": "4", "unit": "px" },
+            "box_shadow_box_shadow_type": "yes",
+            "box_shadow_box_shadow": { "horizontal": 0, "vertical": 2, "blur": 8, "spread": 0, "color": "rgba(0,0,0,0.06)" },
+            "padding": { "unit": "px", "top": "36", "right": "28", "bottom": "36", "left": "28", "isLinked": false }
+          },
+          "elements": [
+            {
+              "id": "w048num3",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "03",
+                "header_size": "h2",
+                "align": "left",
+                "title_color": "#eaeaea",
+                "typography_typography": "custom",
+                "typography_font_size": { "unit": "px", "size": 48 },
+                "typography_font_weight": "700",
+                "_margin": { "unit": "px", "top": "0", "right": "0", "bottom": "16", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+            {
+              "id": "w049icon3",
+              "elType": "widget",
+              "widgetType": "icon",
+              "settings": {
+                "icon": { "value": "fas fa-fire", "library": "fa-solid" },
+                "size": { "unit": "px", "size": 28 },
+                "primary_color": "#C9A44C",
+                "align": "left",
+                "_margin": { "unit": "px", "top": "0", "right": "0", "bottom": "12", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+            {
+              "id": "w04ah3c",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Reativa\u00e7\u00e3o da Atra\u00e7\u00e3o",
+                "header_size": "h4",
+                "align": "left",
+                "title_color": "#2A1E5C",
+                "typography_typography": "custom",
+                "typography_font_size": { "unit": "px", "size": 18 },
+                "typography_font_weight": "700",
+                "_margin": { "unit": "px", "top": "0", "right": "0", "bottom": "10", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+            {
+              "id": "w04btxt3",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"font-size:14px;color:#4B4F58;line-height:1.75;\">T\u00e9cnicas baseadas em psicologia da atra\u00e7\u00e3o para reacender o interesse emocional e criar momentos de conex\u00e3o que ressoam no inconsciente.</p>"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s006ph45",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#F2F5F7",
+        "padding": { "unit": "px", "top": "16", "right": "20", "bottom": "72", "left": "20", "isLinked": false },
+        "content_width": "boxed",
+        "gap": "default"
+      },
+      "elements": [
+        {
+          "id": "c006a",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50,
+            "background_background": "classic",
+            "background_color": "#FFFFFF",
+            "border_border": "solid",
+            "border_width": { "top": "1", "right": "1", "bottom": "1", "left": "1", "unit": "px" },
+            "border_color": "#eaeaea",
+            "border_radius": { "top": "4", "right": "4", "bottom": "4", "left": "4", "unit": "px" },
+            "box_shadow_box_shadow_type": "yes",
+            "box_shadow_box_shadow": { "horizontal": 0, "vertical": 2, "blur": 8, "spread": 0, "color": "rgba(0,0,0,0.06)" },
+            "padding": { "unit": "px", "top": "36", "right": "28", "bottom": "36", "left": "28", "isLinked": false }
+          },
+          "elements": [
+            {
+              "id": "w050num4",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "04",
+                "header_size": "h2",
+                "align": "left",
+                "title_color": "#eaeaea",
+                "typography_typography": "custom",
+                "typography_font_size": { "unit": "px", "size": 48 },
+                "typography_font_weight": "700",
+                "_margin": { "unit": "px", "top": "0", "right": "0", "bottom": "16", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+            {
+              "id": "w051icon4",
+              "elType": "widget",
+              "widgetType": "icon",
+              "settings": {
+                "icon": { "value": "fas fa-link", "library": "fa-solid" },
+                "size": { "unit": "px", "size": 28 },
+                "primary_color": "#C9A44C",
+                "align": "left",
+                "_margin": { "unit": "px", "top": "0", "right": "0", "bottom": "12", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+            {
+              "id": "w052h3d",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Reconex\u00e3o Estrat\u00e9gica",
+                "header_size": "h4",
+                "align": "left",
+                "title_color": "#2A1E5C",
+                "typography_typography": "custom",
+                "typography_font_size": { "unit": "px", "size": 18 },
+                "typography_font_weight": "700",
+                "_margin": { "unit": "px", "top": "0", "right": "0", "bottom": "10", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+            {
+              "id": "w053txt4",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"font-size:14px;color:#4B4F58;line-height:1.75;\">Orienta\u00e7\u00e3o para retomar o contato e as intera\u00e7\u00f5es de forma natural e positiva, sem desespero ou press\u00e3o emocional que afaste o outro.</p>"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "c006b",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50,
+            "background_background": "classic",
+            "background_color": "#2A1E5C",
+            "border_radius": { "top": "4", "right": "4", "bottom": "4", "left": "4", "unit": "px" },
+            "padding": { "unit": "px", "top": "36", "right": "28", "bottom": "36", "left": "28", "isLinked": false }
+          },
+          "elements": [
+            {
+              "id": "w054num5",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "05",
+                "header_size": "h2",
+                "align": "left",
+                "title_color": "rgba(255,255,255,0.15)",
+                "typography_typography": "custom",
+                "typography_font_size": { "unit": "px", "size": 48 },
+                "typography_font_weight": "700",
+                "_margin": { "unit": "px", "top": "0", "right": "0", "bottom": "16", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+            {
+              "id": "w055icon5",
+              "elType": "widget",
+              "widgetType": "icon",
+              "settings": {
+                "icon": { "value": "fas fa-heart", "library": "fa-solid" },
+                "size": { "unit": "px", "size": 28 },
+                "primary_color": "#C9A44C",
+                "align": "left",
+                "_margin": { "unit": "px", "top": "0", "right": "0", "bottom": "12", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+            {
+              "id": "w056h3e",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Reconstru\u00e7\u00e3o do V\u00ednculo",
+                "header_size": "h4",
+                "align": "left",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": { "unit": "px", "size": 18 },
+                "typography_font_weight": "700",
+                "_margin": { "unit": "px", "top": "0", "right": "0", "bottom": "10", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+            {
+              "id": "w057txt5",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"font-size:14px;color:rgba(255,255,255,0.80);line-height:1.75;\">Consolida\u00e7\u00e3o da reconex\u00e3o em um relacionamento mais maduro e consciente. Construir uma base s\u00f3lida que evita erros do passado.</p>"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s007spec",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": { "unit": "px", "top": "72", "right": "20", "bottom": "72", "left": "20", "isLinked": false },
+        "content_width": "boxed",
+        "gap": "extended"
+      },
+      "elements": [
+        {
+          "id": "c007img",
+          "elType": "column",
+          "settings": { "_column_size": 40, "content_position": "middle" },
+          "elements": [
+            {
+              "id": "w060img",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": { "url": "https://placehold.co/460x540/2A1E5C/FFFFFF?text=Cristina+Fernandez", "id": "" },
+                "image_size": "full",
+                "align": "center",
+                "width": { "unit": "%", "size": 100 },
+                "image_border_radius": { "top": "4", "right": "4", "bottom": "4", "left": "4", "unit": "px" },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": { "horizontal": 0, "vertical": 4, "blur": 16, "spread": 0, "color": "rgba(0,0,0,0.12)" }
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "c007bio",
+          "elType": "column",
+          "settings": {
+            "_column_size": 60,
+            "content_position": "middle",
+            "padding": { "unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "56", "isLinked": false }
+          },
+          "elements": [
+            {
+              "id": "w061label",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "SOBRE A ESPECIALISTA",
+                "header_size": "h6",
+                "align": "left",
+                "title_color": "#C9A44C",
+                "typography_typography": "custom",
+                "typography_font_size": { "unit": "px", "size": 12 },
+                "typography_font_weight": "700",
+                "typography_letter_spacing": { "unit": "px", "size": 3 },
+                "typography_text_transform": "uppercase",
+                "_margin": { "unit": "px", "top": "0", "right": "0", "bottom": "12", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+            {
+              "id": "w062h2",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Cristina Fernandez",
+                "header_size": "h2",
+                "align": "left",
+                "title_color": "#2A1E5C",
+                "typography_typography": "custom",
+                "typography_font_size": { "unit": "px", "size": 36 },
+                "typography_font_size_tablet": { "unit": "px", "size": 28 },
+                "typography_font_size_mobile": { "unit": "px", "size": 24 },
+                "typography_font_weight": "700",
+                "_margin": { "unit": "px", "top": "0", "right": "0", "bottom": "8", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+            {
+              "id": "w063sub",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Especialista em Relacionamentos e Comportamento Emocional",
+                "header_size": "h5",
+                "align": "left",
+                "title_color": "#4B4F58",
+                "typography_typography": "custom",
+                "typography_font_size": { "unit": "px", "size": 15 },
+                "typography_font_weight": "400",
+                "_margin": { "unit": "px", "top": "0", "right": "0", "bottom": "20", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+            {
+              "id": "w064divl",
+              "elType": "widget",
+              "widgetType": "divider",
+              "settings": {
+                "color": "#C9A44C",
+                "width": { "unit": "px", "size": 40 },
+                "weight": { "unit": "px", "size": 3 },
+                "align": "left",
+                "_margin": { "unit": "px", "top": "0", "right": "0", "bottom": "24", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+            {
+              "id": "w065txt",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"font-size:16px;color:#4B4F58;line-height:1.85;margin-bottom:16px;\">Cristina Fernandez \u00e9 especialista em din\u00e2mica de relacionamentos e comportamento emocional, conhecida por ajudar pessoas a compreenderem padr\u00f5es de relacionamento e reconstruirem conex\u00f5es afetivas de forma mais consciente e estrat\u00e9gica.</p><p style=\"font-size:16px;color:#4B4F58;line-height:1.85;\">Com anos de experi\u00eancia aplicando princ\u00edpios da psicologia comportamental e neuroci\u00eancia das emo\u00e7\u00f5es, desenvolveu uma metodologia \u00fanica que une rigor cient\u00edfico com sensibilidade humana, ajudando centenas de pessoas a reconstruirem v\u00ednculos afetivos com clareza e inten\u00e7\u00e3o.</p>"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s008forqsec",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#F5F5F5",
+        "padding": { "unit": "px", "top": "72", "right": "20", "bottom": "72", "left": "20", "isLinked": false },
+        "content_width": "boxed"
+      },
+      "elements": [
+        {
+          "id": "c008title",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "w070label",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "PERFIL DO USU\u00c1RIO",
+                "header_size": "h6",
+                "align": "center",
+                "title_color": "#C9A44C",
+                "typography_typography": "custom",
+                "typography_font_size": { "unit": "px", "size": 12 },
+                "typography_font_weight": "700",
+                "typography_letter_spacing": { "unit": "px", "size": 3 },
+                "typography_text_transform": "uppercase",
+                "_margin": { "unit": "px", "top": "0", "right": "0", "bottom": "12", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+            {
+              "id": "w071h2",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Para quem este m\u00e9todo pode ser \u00fatil",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#2A1E5C",
+                "typography_typography": "custom",
+                "typography_font_size": { "unit": "px", "size": 36 },
+                "typography_font_size_tablet": { "unit": "px", "size": 28 },
+                "typography_font_size_mobile": { "unit": "px", "size": 24 },
+                "typography_font_weight": "700",
+                "_margin": { "unit": "px", "top": "0", "right": "0", "bottom": "40", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s009forqcards",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#F5F5F5",
+        "padding": { "unit": "px", "top": "0", "right": "20", "bottom": "72", "left": "20", "isLinked": false },
+        "content_width": "boxed",
+        "gap": "default"
+      },
+      "elements": [
+        {
+          "id": "c009a",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33,
+            "background_background": "classic",
+            "background_color": "#FFFFFF",
+            "border_border": "solid",
+            "border_width": { "top": "1", "right": "1", "bottom": "3", "left": "1", "unit": "px" },
+            "border_color": "#eaeaea",
+            "border_bottom_color": "#2A1E5C",
+            "border_radius": { "top": "4", "right": "4", "bottom": "4", "left": "4", "unit": "px" },
+            "box_shadow_box_shadow_type": "yes",
+            "box_shadow_box_shadow": { "horizontal": 0, "vertical": 2, "blur": 8, "spread": 0, "color": "rgba(0,0,0,0.06)" },
+            "padding": { "unit": "px", "top": "40", "right": "28", "bottom": "40", "left": "28", "isLinked": false }
+          },
+          "elements": [
+            {
+              "id": "w080ic1",
+              "elType": "widget",
+              "widgetType": "icon",
+              "settings": {
+                "icon": { "value": "fas fa-heart-broken", "library": "fa-solid" },
+                "size": { "unit": "px", "size": 36 },
+                "primary_color": "#2A1E5C",
+                "align": "left",
+                "_margin": { "unit": "px", "top": "0", "right": "0", "bottom": "20", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+            {
+              "id": "w081h4a",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Pessoas que passaram por uma separa\u00e7\u00e3o recente",
+                "header_size": "h4",
+                "align": "left",
+                "title_color": "#2A1E5C",
+                "typography_typography": "custom",
+                "typography_font_size": { "unit": "px", "size": 18 },
+                "typography_font_weight": "700",
+                "typography_line_height": { "unit": "em", "size": 1.3 },
+                "_margin": { "unit": "px", "top": "0", "right": "0", "bottom": "12", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+            {
+              "id": "w082t1",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"font-size:14px;color:#4B4F58;line-height:1.75;\">Quem est\u00e1 processando o fim de um relacionamento e busca clareza emocional para navegar esse momento com mais consci\u00eancia.</p>"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "c009b",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33,
+            "background_background": "classic",
+            "background_color": "#FFFFFF",
+            "border_border": "solid",
+            "border_width": { "top": "1", "right": "1", "bottom": "3", "left": "1", "unit": "px" },
+            "border_color": "#eaeaea",
+            "border_bottom_color": "#C9A44C",
+            "border_radius": { "top": "4", "right": "4", "bottom": "4", "left": "4", "unit": "px" },
+            "box_shadow_box_shadow_type": "yes",
+            "box_shadow_box_shadow": { "horizontal": 0, "vertical": 2, "blur": 8, "spread": 0, "color": "rgba(0,0,0,0.06)" },
+            "padding": { "unit": "px", "top": "40", "right": "28", "bottom": "40", "left": "28", "isLinked": false }
+          },
+          "elements": [
+            {
+              "id": "w083ic2",
+              "elType": "widget",
+              "widgetType": "icon",
+              "settings": {
+                "icon": { "value": "fas fa-redo-alt", "library": "fa-solid" },
+                "size": { "unit": "px", "size": 36 },
+                "primary_color": "#C9A44C",
+                "align": "left",
+                "_margin": { "unit": "px", "top": "0", "right": "0", "bottom": "20", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+            {
+              "id": "w084h4b",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Quem deseja reconstruir um relacionamento",
+                "header_size": "h4",
+                "align": "left",
+                "title_color": "#2A1E5C",
+                "typography_typography": "custom",
+                "typography_font_size": { "unit": "px", "size": 18 },
+                "typography_font_weight": "700",
+                "typography_line_height": { "unit": "em", "size": 1.3 },
+                "_margin": { "unit": "px", "top": "0", "right": "0", "bottom": "12", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+            {
+              "id": "w085t2",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"font-size:14px;color:#4B4F58;line-height:1.75;\">Pessoas que sentem que ainda h\u00e1 espa\u00e7o para reconex\u00e3o e querem abordar essa possibilidade com maturidade emocional e estrat\u00e9gia.</p>"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "c009c",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33,
+            "background_background": "classic",
+            "background_color": "#FFFFFF",
+            "border_border": "solid",
+            "border_width": { "top": "1", "right": "1", "bottom": "3", "left": "1", "unit": "px" },
+            "border_color": "#eaeaea",
+            "border_bottom_color": "#2A1E5C",
+            "border_radius": { "top": "4", "right": "4", "bottom": "4", "left": "4", "unit": "px" },
+            "box_shadow_box_shadow_type": "yes",
+            "box_shadow_box_shadow": { "horizontal": 0, "vertical": 2, "blur": 8, "spread": 0, "color": "rgba(0,0,0,0.06)" },
+            "padding": { "unit": "px", "top": "40", "right": "28", "bottom": "40", "left": "28", "isLinked": false }
+          },
+          "elements": [
+            {
+              "id": "w086ic3",
+              "elType": "widget",
+              "widgetType": "icon",
+              "settings": {
+                "icon": { "value": "fas fa-brain", "library": "fa-solid" },
+                "size": { "unit": "px", "size": 36 },
+                "primary_color": "#2A1E5C",
+                "align": "left",
+                "_margin": { "unit": "px", "top": "0", "right": "0", "bottom": "20", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+            {
+              "id": "w087h4c",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Quem busca compreender as din\u00e2micas emocionais",
+                "header_size": "h4",
+                "align": "left",
+                "title_color": "#2A1E5C",
+                "typography_typography": "custom",
+                "typography_font_size": { "unit": "px", "size": 18 },
+                "typography_font_weight": "700",
+                "typography_line_height": { "unit": "em", "size": 1.3 },
+                "_margin": { "unit": "px", "top": "0", "right": "0", "bottom": "12", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+            {
+              "id": "w088t3",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"font-size:14px;color:#4B4F58;line-height:1.75;\">Pessoas que querem entender por que relacionamentos terminam e como evitar os mesmos padr\u00f5es em futuras conex\u00f5es afetivas.</p>"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s010edu",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": { "unit": "px", "top": "72", "right": "20", "bottom": "72", "left": "20", "isLinked": false },
+        "content_width": "boxed"
+      },
+      "elements": [
+        {
+          "id": "c010title",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "w090label",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "BASE CIENT\u00cdFICA",
+                "header_size": "h6",
+                "align": "center",
+                "title_color": "#C9A44C",
+                "typography_typography": "custom",
+                "typography_font_size": { "unit": "px", "size": 12 },
+                "typography_font_weight": "700",
+                "typography_letter_spacing": { "unit": "px", "size": 3 },
+                "typography_text_transform": "uppercase",
+                "_margin": { "unit": "px", "top": "0", "right": "0", "bottom": "12", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+            {
+              "id": "w091h2",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "O que a ci\u00eancia diz sobre atra\u00e7\u00e3o e reconex\u00e3o emocional",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#2A1E5C",
+                "typography_typography": "custom",
+                "typography_font_size": { "unit": "px", "size": 36 },
+                "typography_font_size_tablet": { "unit": "px", "size": 28 },
+                "typography_font_size_mobile": { "unit": "px", "size": 24 },
+                "typography_font_weight": "700",
+                "_margin": { "unit": "px", "top": "0", "right": "0", "bottom": "48", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s011edublocks",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": { "unit": "px", "top": "0", "right": "20", "bottom": "72", "left": "20", "isLinked": false },
+        "content_width": "boxed",
+        "gap": "default"
+      },
+      "elements": [
+        {
+          "id": "c011a",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33,
+            "background_background": "classic",
+            "background_color": "#F2F5F7",
+            "border_radius": { "top": "4", "right": "4", "bottom": "4", "left": "4", "unit": "px" },
+            "padding": { "unit": "px", "top": "36", "right": "28", "bottom": "36", "left": "28", "isLinked": false }
+          },
+          "elements": [
+            {
+              "id": "w100ic",
+              "elType": "widget",
+              "widgetType": "icon",
+              "settings": {
+                "icon": { "value": "fas fa-atom", "library": "fa-solid" },
+                "size": { "unit": "px", "size": 32 },
+                "primary_color": "#2A1E5C",
+                "align": "left",
+                "_margin": { "unit": "px", "top": "0", "right": "0", "bottom": "16", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+            {
+              "id": "w101h3a",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Din\u00e2micas Emocionais",
+                "header_size": "h4",
+                "align": "left",
+                "title_color": "#2A1E5C",
+                "typography_typography": "custom",
+                "typography_font_size": { "unit": "px", "size": 20 },
+                "typography_font_weight": "700",
+                "_margin": { "unit": "px", "top": "0", "right": "0", "bottom": "12", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+            {
+              "id": "w102t1",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"font-size:14px;color:#4B4F58;line-height:1.8;\">A neuroci\u00eancia demonstra que o c\u00e9rebro processa emo\u00e7\u00f5es e apego de forma similar \u00e0 depend\u00eancia. Quando um relacionamento termina, o sistema l\u00edmbico passa por um processo de abst\u00eancia emocional que, se n\u00e3o gerenciado, leva a comportamentos contraproducentes.</p>"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "c011b",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33,
+            "background_background": "classic",
+            "background_color": "#F2F5F7",
+            "border_radius": { "top": "4", "right": "4", "bottom": "4", "left": "4", "unit": "px" },
+            "padding": { "unit": "px", "top": "36", "right": "28", "bottom": "36", "left": "28", "isLinked": false }
+          },
+          "elements": [
+            {
+              "id": "w103ic",
+              "elType": "widget",
+              "widgetType": "icon",
+              "settings": {
+                "icon": { "value": "fas fa-magnet", "library": "fa-solid" },
+                "size": { "unit": "px", "size": 32 },
+                "primary_color": "#2A1E5C",
+                "align": "left",
+                "_margin": { "unit": "px", "top": "0", "right": "0", "bottom": "16", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+            {
+              "id": "w104h3b",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Psicologia da Atra\u00e7\u00e3o",
+                "header_size": "h4",
+                "align": "left",
+                "title_color": "#2A1E5C",
+                "typography_typography": "custom",
+                "typography_font_size": { "unit": "px", "size": 20 },
+                "typography_font_weight": "700",
+                "_margin": { "unit": "px", "top": "0", "right": "0", "bottom": "12", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+            {
+              "id": "w105t2",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"font-size:14px;color:#4B4F58;line-height:1.8;\">Estudos em psicologia social revelam que a atra\u00e7\u00e3o \u00e9 um processo din\u00e2mico influenciado por percep\u00e7\u00e3o de valor, escassez e seguran\u00e7a emocional. Compreender esses mecanismos permite agir de forma alinhada ao funcionamento real do afeto humano.</p>"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "c011c",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33,
+            "background_background": "classic",
+            "background_color": "#F2F5F7",
+            "border_radius": { "top": "4", "right": "4", "bottom": "4", "left": "4", "unit": "px" },
+            "padding": { "unit": "px", "top": "36", "right": "28", "bottom": "36", "left": "28", "isLinked": false }
+          },
+          "elements": [
+            {
+              "id": "w106ic",
+              "elType": "widget",
+              "widgetType": "icon",
+              "settings": {
+                "icon": { "value": "fas fa-exchange-alt", "library": "fa-solid" },
+                "size": { "unit": "px", "size": 32 },
+                "primary_color": "#2A1E5C",
+                "align": "left",
+                "_margin": { "unit": "px", "top": "0", "right": "0", "bottom": "16", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+            {
+              "id": "w107h3c",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Padr\u00f5es de Comunica\u00e7\u00e3o",
+                "header_size": "h4",
+                "align": "left",
+                "title_color": "#2A1E5C",
+                "typography_typography": "custom",
+                "typography_font_size": { "unit": "px", "size": 20 },
+                "typography_font_weight": "700",
+                "_margin": { "unit": "px", "top": "0", "right": "0", "bottom": "12", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+            {
+              "id": "w108t3",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"font-size:14px;color:#4B4F58;line-height:1.8;\">Pesquisas em comunica\u00e7\u00e3o n\u00e3o violenta e terapia do apego mostram que o \"como\" comunicamos importa mais do que o \"o qu\u00ea\". Pequenos ajustes na forma de se comunicar transformam completamente a percep\u00e7\u00e3o do outro.</p>"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s012faq",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#F5F5F5",
+        "padding": { "unit": "px", "top": "72", "right": "20", "bottom": "72", "left": "20", "isLinked": false },
+        "content_width": "boxed"
+      },
+      "elements": [
+        {
+          "id": "c012left",
+          "elType": "column",
+          "settings": {
+            "_column_size": 35,
+            "padding": { "unit": "px", "top": "0", "right": "40", "bottom": "0", "left": "0", "isLinked": false }
+          },
+          "elements": [
+            {
+              "id": "w110label",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "D\u00daVIDAS",
+                "header_size": "h6",
+                "align": "left",
+                "title_color": "#C9A44C",
+                "typography_typography": "custom",
+                "typography_font_size": { "unit": "px", "size": 12 },
+                "typography_font_weight": "700",
+                "typography_letter_spacing": { "unit": "px", "size": 3 },
+                "typography_text_transform": "uppercase",
+                "_margin": { "unit": "px", "top": "0", "right": "0", "bottom": "12", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+            {
+              "id": "w111h2",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Perguntas Frequentes",
+                "header_size": "h2",
+                "align": "left",
+                "title_color": "#2A1E5C",
+                "typography_typography": "custom",
+                "typography_font_size": { "unit": "px", "size": 34 },
+                "typography_font_size_tablet": { "unit": "px", "size": 26 },
+                "typography_font_weight": "700",
+                "_margin": { "unit": "px", "top": "0", "right": "0", "bottom": "16", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+            {
+              "id": "w112divl",
+              "elType": "widget",
+              "widgetType": "divider",
+              "settings": {
+                "color": "#C9A44C",
+                "width": { "unit": "px", "size": 40 },
+                "weight": { "unit": "px", "size": 3 },
+                "align": "left",
+                "_margin": { "unit": "px", "top": "0", "right": "0", "bottom": "20", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+            {
+              "id": "w113sub",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"font-size:15px;color:#4B4F58;line-height:1.75;\">N\u00e3o encontrou sua resposta? Fale diretamente com nossa equipe pelo WhatsApp.</p>"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "c012right",
+          "elType": "column",
+          "settings": { "_column_size": 65 },
+          "elements": [
+            {
+              "id": "w114acc",
+              "elType": "widget",
+              "widgetType": "accordion",
+              "settings": {
+                "tabs": [
+                  {
+                    "_id": "faq1",
+                    "tab_title": "Esse m\u00e9todo funciona em qualquer situa\u00e7\u00e3o?",
+                    "tab_content": "O Protocolo Neuro Reconquista \u00e9 uma metodologia flex\u00edvel, mas seus resultados variam de acordo com o contexto de cada relacionamento. Ele \u00e9 mais eficaz quando aplicado com abertura emocional e consist\u00eancia. Em alguns casos, o objetivo principal n\u00e3o \u00e9 necessariamente a reconquista, mas o crescimento pessoal e a clareza emocional \u2014 o que por si s\u00f3 j\u00e1 tem imenso valor."
+                  },
+                  {
+                    "_id": "faq2",
+                    "tab_title": "E se a pessoa j\u00e1 estiver em outro relacionamento?",
+                    "tab_content": "Esta \u00e9 uma das situa\u00e7\u00f5es mais delicadas. O protocolo aborda esse cen\u00e1rio de forma \u00e9tica e realista, focando primeiro no seu desenvolvimento pessoal e equil\u00edbrio emocional. N\u00e3o ensinamos t\u00e9cnicas de manipula\u00e7\u00e3o ou formas de interferir em relacionamentos de terceiros. O foco \u00e9 sempre em transforma\u00e7\u00e3o genuina."
+                  },
+                  {
+                    "_id": "faq3",
+                    "tab_title": "Quanto tempo normalmente leva o processo?",
+                    "tab_content": "N\u00e3o existe uma resposta \u00fanica, pois cada situa\u00e7\u00e3o \u00e9 diferente. Em geral, as primeiras transforma\u00e7\u00f5es internas come\u00e7am a aparecer em semanas, enquanto mudan\u00e7as externas no relacionamento podem levar meses. O mais importante \u00e9 entender que estamos falando de transforma\u00e7\u00e3o real, n\u00e3o de solu\u00e7\u00f5es r\u00e1pidas superficiais."
+                  },
+                  {
+                    "_id": "faq4",
+                    "tab_title": "Preciso falar com a pessoa imediatamente?",
+                    "tab_content": "N\u00e3o. Na maioria dos casos, o protocolo come\u00e7a com um per\u00edodo de recolhimento estrat\u00e9gico. Agir imediatamente, movido pela ansiedade emocional, quase sempre gera resultados opostos ao desejado. O timing correto das a\u00e7\u00f5es \u00e9 uma das partes mais cr\u00edticas do m\u00e9todo."
+                  },
+                  {
+                    "_id": "faq5",
+                    "tab_title": "O m\u00e9todo \u00e9 indicado apenas para homens?",
+                    "tab_content": "N\u00e3o. O Protocolo Neuro Reconquista foi desenvolvido para qualquer pessoa, independentemente de g\u00eanero, orienta\u00e7\u00e3o sexual ou tipo de relacionamento. Os princ\u00edpios da psicologia emocional e din\u00e2mica de atra\u00e7\u00e3o s\u00e3o universais e se aplicam a qualquer v\u00ednculo afetivo humano."
+                  }
+                ],
+                "active_item": 1,
+                "title_html_tag": "div",
+                "border_width": { "unit": "px", "size": 1 },
+                "border_color": "#eaeaea",
+                "title_background": "#FFFFFF",
+                "title_color": "#2A1E5C",
+                "title_color_active": "#2A1E5C",
+                "icon_color": "#C9A44C",
+                "content_background_color": "#FFFFFF",
+                "content_color": "#4B4F58",
+                "typography_typography": "custom",
+                "typography_font_size": { "unit": "px", "size": 15 },
+                "typography_font_weight": "600",
+                "content_typography_typography": "custom",
+                "content_typography_font_size": { "unit": "px", "size": 14 },
+                "content_typography_line_height": { "unit": "em", "size": 1.75 }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s013cta",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#2A1E5C",
+        "padding": { "unit": "px", "top": "80", "right": "20", "bottom": "80", "left": "20", "isLinked": false },
+        "content_width": "boxed"
+      },
+      "elements": [
+        {
+          "id": "c013col",
+          "elType": "column",
+          "settings": { "_column_size": 100, "content_position": "middle" },
+          "elements": [
+            {
+              "id": "w120label",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "ATENDIMENTO",
+                "header_size": "h6",
+                "align": "center",
+                "title_color": "#C9A44C",
+                "typography_typography": "custom",
+                "typography_font_size": { "unit": "px", "size": 12 },
+                "typography_font_weight": "700",
+                "typography_letter_spacing": { "unit": "px", "size": 3 },
+                "typography_text_transform": "uppercase",
+                "_margin": { "unit": "px", "top": "0", "right": "0", "bottom": "12", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+            {
+              "id": "w121h2",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Ainda tem d\u00favidas?",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": { "unit": "px", "size": 42 },
+                "typography_font_size_tablet": { "unit": "px", "size": 32 },
+                "typography_font_size_mobile": { "unit": "px", "size": 26 },
+                "typography_font_weight": "700",
+                "_margin": { "unit": "px", "top": "0", "right": "0", "bottom": "16", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+            {
+              "id": "w122txt",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align:center;font-size:17px;color:rgba(255,255,255,0.80);line-height:1.75;max-width:580px;margin:0 auto;\">Se voc\u00ea deseja entender melhor como o m\u00e9todo funciona ou saber se ele pode se aplicar ao seu caso, fale diretamente com nossa equipe.</p>",
+                "_margin": { "unit": "px", "top": "0", "right": "0", "bottom": "32", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+            {
+              "id": "w123divh",
+              "elType": "widget",
+              "widgetType": "divider",
+              "settings": {
+                "color": "rgba(255,255,255,0.15)",
+                "width": { "unit": "px", "size": 1 },
+                "weight": { "unit": "px", "size": 1 },
+                "_margin": { "unit": "px", "top": "0", "right": "0", "bottom": "32", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+            {
+              "id": "w124btn1",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Falar no WhatsApp",
+                "link": { "url": "https://wa.me/5500000000000", "is_external": true },
+                "align": "center",
+                "size": "lg",
+                "background_color": "#25D366",
+                "button_text_color": "#FFFFFF",
+                "border_radius": { "top": "3", "right": "3", "bottom": "3", "left": "3", "unit": "px" },
+                "typography_typography": "custom",
+                "typography_font_size": { "unit": "px", "size": 16 },
+                "typography_font_weight": "700",
+                "padding": { "unit": "px", "top": "16", "right": "40", "bottom": "16", "left": "40", "isLinked": false },
+                "icon": { "value": "fab fa-whatsapp", "library": "fa-brands" },
+                "icon_align": "left",
+                "icon_indent": { "unit": "px", "size": 10 },
+                "_margin": { "unit": "px", "top": "0", "right": "0", "bottom": "12", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+            {
+              "id": "w125btn2",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Iniciar conversa",
+                "link": { "url": "#", "is_external": false },
+                "align": "center",
+                "size": "md",
+                "background_color": "rgba(0,0,0,0)",
+                "button_text_color": "rgba(255,255,255,0.70)",
+                "border_border": "solid",
+                "border_width": { "top": "1", "right": "1", "bottom": "1", "left": "1", "unit": "px" },
+                "border_color": "rgba(255,255,255,0.30)",
+                "border_radius": { "top": "3", "right": "3", "bottom": "3", "left": "3", "unit": "px" },
+                "typography_typography": "custom",
+                "typography_font_size": { "unit": "px", "size": 14 },
+                "typography_font_weight": "600",
+                "padding": { "unit": "px", "top": "13", "right": "36", "bottom": "13", "left": "36", "isLinked": false },
+                "icon": { "value": "fas fa-comment-dots", "library": "fa-solid" },
+                "icon_align": "left",
+                "icon_indent": { "unit": "px", "size": 8 }
+              },
+              "elements": []
+            },
+            {
+              "id": "w126sp",
+              "elType": "widget",
+              "widgetType": "spacer",
+              "settings": { "space": { "unit": "px", "size": 24 } },
+              "elements": []
+            },
+            {
+              "id": "w127note",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align:center;font-size:13px;color:rgba(255,255,255,0.45);\">Respondemos em at\u00e9 24 horas &nbsp;\u00b7&nbsp; Atendimento humanizado e confidencial</p>"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
