@@ -56,7 +56,18 @@ export const useAuth = () => {
 
   const fetchUser = async (id: string) => {
     try {
-      const { data } = await supabase.from('users').select('*').eq('id', id).single()
+      let { data } = await supabase.from('users').select('*').eq('id', id).single()
+
+      // If user row doesn't exist yet (trigger may have failed), create it
+      if (!data) {
+        const { data: authUser } = await supabase.auth.getUser()
+        const email = authUser?.user?.email || ''
+        const name = authUser?.user?.user_metadata?.full_name || ''
+        await supabase.from('users').upsert({ id, email, name }, { onConflict: 'id' })
+        const { data: created } = await supabase.from('users').select('*').eq('id', id).single()
+        data = created
+      }
+
       setUser(data as User)
     } catch {
       setUser(null)
