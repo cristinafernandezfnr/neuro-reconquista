@@ -17,7 +17,7 @@ serve(async (req) => {
       .in('key', ['hotmart_hottok', 'app_url'])
 
     const cfg = Object.fromEntries((settings || []).map((r: { key: string; value: string }) => [r.key, r.value]))
-    const APP_URL = cfg['app_url'] || Deno.env.get('APP_URL') || 'https://neuroreconquista.com'
+    const APP_URL = (cfg['app_url'] || Deno.env.get('APP_URL') || 'https://neuroreconquista.com').trim()
     const HOTMART_HOTTOK = cfg['hotmart_hottok'] || Deno.env.get('HOTMART_HOTTOK') || ''
 
     // Hotmart signature validation via X-Hotmart-Hottok header
@@ -50,35 +50,26 @@ serve(async (req) => {
       let userId: string
 
       if (!existingRow) {
-        // Create auth user (email already confirmed) + let trigger create users row
-        const { data: created, error: createErr } = await supabase.auth.admin.createUser({
-          email,
-          email_confirm: true,
-          user_metadata: { full_name: customerName },
+        // New user — invite sends email automatically with one-click access link
+        const { data: invited, error: inviteErr } = await supabase.auth.admin.inviteUserByEmail(email, {
+          data: { full_name: customerName },
+          redirectTo: APP_URL,
         })
-        if (createErr) throw createErr
-        userId = created.user.id
+        if (inviteErr) throw inviteErr
+        userId = invited.user.id
 
-        // Upsert users row (trigger may not have populated it yet)
+        // Upsert users row with access (trigger may not have run yet)
         await supabase.from('users').upsert({
           id: userId,
           email,
-          full_name: customerName,
+          name: customerName,
           protocol_access: true,
           pro_access: true,
           protocol_source: 'hotmart',
-        })
-
-        // Send magic link so user can access the app immediately
-        const { data: linkData } = await supabase.auth.admin.generateLink({
-          type: 'magiclink',
-          email,
-          options: { redirectTo: APP_URL },
-        })
-        console.log('Magic link generated for new user:', email, linkData?.properties?.action_link)
+        }, { onConflict: 'id' })
       } else {
         userId = existingRow.id
-        // Existing user — upgrade access
+        // Existing user — upgrade access and send new magic link
         await supabase.from('users').update({
           protocol_access: true,
           pro_access: true,
@@ -86,6 +77,13 @@ serve(async (req) => {
           banned: false,
           ban_reason: null,
         }).eq('id', userId)
+
+        // Send magic link to existing user
+        await supabase.auth.admin.generateLink({
+          type: 'magiclink',
+          email,
+          options: { redirectTo: APP_URL },
+        })
       }
 
       // 2. Record payment
