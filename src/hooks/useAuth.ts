@@ -96,7 +96,7 @@ export const useAuth = () => {
   const signInWithMagicLink = async (email: string) => {
     if (isDemoSupabase()) return { error: new Error('Demo mode — use demo@teste.com') }
     try {
-      const redirectTo = `${window.location.origin}/`
+      const redirectTo = window.location.origin
       const { error } = await supabase.auth.signInWithOtp({
         email,
         options: { emailRedirectTo: redirectTo, shouldCreateUser: false },
