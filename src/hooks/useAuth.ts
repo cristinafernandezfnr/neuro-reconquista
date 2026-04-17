@@ -20,16 +20,18 @@ export const useAuth = () => {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    if (isDemoSupabase()) {
-      // Only restore demo session if it was explicitly started in this browser tab
-      // sessionStorage clears on tab close, preventing stale auto-login across visits
-      const hasSession = sessionStorage.getItem('nr_demo_session') === 'true'
-      if (hasSession) {
-        const stored = localStorage.getItem('nr_demo_user')
-        if (stored) {
-          try { setUser(JSON.parse(stored) as User) } catch { setUser(null) }
-        }
+    // Check for demo session first (works in any Supabase mode)
+    const hasSession = sessionStorage.getItem('nr_demo_session') === 'true'
+    if (hasSession) {
+      const stored = localStorage.getItem('nr_demo_user')
+      if (stored) {
+        try { setUser(JSON.parse(stored) as User) } catch { setUser(null) }
       }
+      setLoading(false)
+      return
+    }
+
+    if (isDemoSupabase()) {
       setLoading(false)
       return
     }
