@@ -315,37 +315,6 @@ export default function Auth() {
           )}
         </AnimatePresence>
 
-        {!magicSent && (
-          <>
-            <div className="flex items-center gap-3 my-4">
-              <div className="flex-1 h-px bg-border" />
-              <span className="text-text-muted text-xs">{t('auth.or')}</span>
-              <div className="flex-1 h-px bg-border" />
-            </div>
-
-            <button
-              onClick={handleDemo}
-              style={{
-                outline: 'none',
-                width: '100%',
-                padding: '14px 24px',
-                borderRadius: '999px',
-                border: '1px solid #c8102e',
-                backgroundColor: 'transparent',
-                color: '#c8102e',
-                fontSize: '16px',
-                fontWeight: 500,
-                cursor: 'pointer',
-                transition: 'background-color 0.2s',
-                marginBottom: '8px',
-              }}
-              onMouseEnter={e => (e.currentTarget.style.backgroundColor = 'rgba(200,16,46,0.08)')}
-              onMouseLeave={e => (e.currentTarget.style.backgroundColor = 'transparent')}
-            >
-              🧪 {t('auth.demo')}
-            </button>
-          </>
-        )}
       </div>
     </div>
   )

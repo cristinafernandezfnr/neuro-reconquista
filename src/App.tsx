@@ -18,6 +18,7 @@ const Coach = lazy(() => import('./pages/Coach'))
 const SOS = lazy(() => import('./pages/SOS'))
 const Profile = lazy(() => import('./pages/Profile'))
 const Admin = lazy(() => import('./pages/Admin'))
+const Preview = lazy(() => import('./pages/Preview'))
 
 const Spinner = () => (
   <div className="min-h-screen bg-background flex items-center justify-center">
@@ -143,6 +144,9 @@ function AppRoutes() {
       <Route path="/sos" element={<ProtectedRoute><SOS /></ProtectedRoute>} />
       <Route path="/profile" element={<ProtectedRoute><Profile /></ProtectedRoute>} />
       <Route path="/admin" element={<ProtectedRoute><Admin /></ProtectedRoute>} />
+
+      {/* Preview access */}
+      <Route path="/preview" element={<Preview />} />
 
       {/* Fallback */}
       <Route path="*" element={<Navigate to="/" replace />} />
