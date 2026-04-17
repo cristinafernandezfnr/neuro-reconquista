@@ -43,7 +43,7 @@ export default function Auth() {
     try {
       const { error: err } = await signInWithMagicLink(email)
       if (err) {
-        setError(err.message || t('auth.magic.error'))
+        setError((err as Error).message || t('auth.magic.error'))
         return
       }
       setMagicSent(true)
