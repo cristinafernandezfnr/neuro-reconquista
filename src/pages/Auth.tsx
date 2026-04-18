@@ -197,7 +197,7 @@ export default function Auth() {
                     <p className="text-text-muted text-sm text-center">{t('auth.access.denied')}</p>
                     <button
                       type="button"
-                      onClick={() => { window.location.href = atob('aHR0cHM6Ly9wYXkua2l3aWZ5LmNvbS5ici9JcnhxeWE=') }}
+                      onClick={() => { window.location.href = atob('aHR0cHM6Ly9wYXkua2l3aWZ5LmNvbS5ici9JcnhxdXlh') }}
                       style={{
                         width: '100%',
                         padding: '14px 24px',
