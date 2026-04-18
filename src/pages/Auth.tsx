@@ -30,6 +30,7 @@ export default function Auth() {
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
   const [magicSent, setMagicSent] = useState(false)
+  const [showPurchaseCTA, setShowPurchaseCTA] = useState(false)
 
   const handleLanguage = (l: Lang) => {
     setLanguage(l)
@@ -43,7 +44,13 @@ export default function Auth() {
     try {
       const { error: err } = await signInWithMagicLink(email)
       if (err) {
-        setError((err as Error).message || t('auth.magic.error'))
+        const msg = (err as Error).message || ''
+        const noAccess = msg === 'auth.access.denied' || msg.toLowerCase().includes('signups not allowed')
+        if (noAccess) {
+          setShowPurchaseCTA(true)
+        } else {
+          setError(t('auth.magic.error'))
+        }
         return
       }
       setMagicSent(true)
@@ -184,9 +191,44 @@ export default function Auth() {
                   />
                 </div>
                 {error && <p className="text-danger text-sm text-center">{error}</p>}
-                <Button type="submit" fullWidth size="lg" loading={loading}>
-                  {t('auth.magic.send')}
-                </Button>
+
+                {showPurchaseCTA ? (
+                  <div className="space-y-3 pt-1">
+                    <p className="text-text-muted text-sm text-center">{t('auth.access.denied')}</p>
+                    <button
+                      type="button"
+                      onClick={() => { window.location.href = atob('aHR0cHM6Ly9wYXkua2l3aWZ5LmNvbS5ici9JcnhxeWE=') }}
+                      style={{
+                        width: '100%',
+                        padding: '14px 24px',
+                        borderRadius: '999px',
+                        border: 'none',
+                        background: 'linear-gradient(135deg, #c8102e, #a00d24)',
+                        color: '#fff',
+                        fontSize: '15px',
+                        fontWeight: 700,
+                        cursor: 'pointer',
+                        letterSpacing: '0.02em',
+                      }}
+                    >
+                      {t('auth.get.access')}
+                    </button>
+                    <p className="text-center text-xs text-text-muted">
+                      <button
+                        type="button"
+                        onClick={() => { setShowPurchaseCTA(false); setEmail('') }}
+                        style={{ outline: 'none' }}
+                        className="underline hover:text-text-secondary transition-colors"
+                      >
+                        {t('auth.magic.back')}
+                      </button>
+                    </p>
+                  </div>
+                ) : (
+                  <Button type="submit" fullWidth size="lg" loading={loading}>
+                    {t('auth.magic.send')}
+                  </Button>
+                )}
               </form>
 
               {/* Password login toggle for admins */}

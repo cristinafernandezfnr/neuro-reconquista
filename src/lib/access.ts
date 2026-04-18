@@ -17,7 +17,7 @@ export function setDemoPlan(plan: DemoPlan): void {
 export const canAccessProtocol = (user: User | null): boolean => {
   if (!user) return false
   if (user.banned) return false
-  return true // Tasks are always accessible to all logged-in users
+  return user.protocol_access === true
 }
 
 export const canAccessPro = (user: User | null): boolean => {

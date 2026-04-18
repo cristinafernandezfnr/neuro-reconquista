@@ -1,77 +1,68 @@
-import { useState } from 'react'
+import { useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useAuth } from '../hooks/useAuth'
+import { useAppContext } from '../contexts/AppContext'
 import { getNextDemoRoute } from '../lib/demoFlow'
+import { t, setLang } from '../data/i18n'
+import { Lang } from '../types'
 
-const PREVIEW_PASSWORD = 'neuro@preview2024'
+const LANGS: { code: Lang; flag: string; label: string }[] = [
+  { code: 'pt', flag: '🇧🇷', label: 'PT' },
+  { code: 'es', flag: '🇪🇸', label: 'ES' },
+  { code: 'en', flag: '🇺🇸', label: 'EN' },
+]
 
 export default function Preview() {
-  const [password, setPassword] = useState('')
-  const [error, setError] = useState(false)
   const { signInDemo } = useAuth()
+  const { language, setLanguage } = useAppContext()
   const navigate = useNavigate()
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault()
-    if (password === PREVIEW_PASSWORD) {
-      signInDemo()
-      navigate(getNextDemoRoute())
-    } else {
-      setError(true)
-      setPassword('')
-    }
+  const handleLanguage = (l: Lang) => {
+    setLanguage(l)
+    setLang(l)
   }
 
-  return (
-    <div className="min-h-screen bg-background flex items-center justify-center px-4">
-      <div className="w-full max-w-sm">
-        <div className="text-center mb-8">
-          <div className="text-4xl mb-3">🧠</div>
-          <h1 className="font-display text-2xl font-bold text-text-primary">
-            Neuro <span className="text-primary">Reconquista</span>
-          </h1>
-          <p className="text-text-muted text-sm mt-2">Acesso de prévia</p>
-        </div>
+  useEffect(() => {
+    signInDemo()
+    navigate(getNextDemoRoute())
+  }, [])
 
-        <form onSubmit={handleSubmit} className="space-y-4">
-          <input
-            type="password"
-            value={password}
-            onChange={e => { setPassword(e.target.value); setError(false) }}
-            placeholder="Senha de acesso"
-            autoFocus
-            style={{
-              width: '100%',
-              padding: '14px 16px',
-              borderRadius: '12px',
-              border: error ? '1px solid #c8102e' : '1px solid rgba(255,255,255,0.1)',
-              backgroundColor: 'rgba(255,255,255,0.05)',
-              color: '#fff',
-              fontSize: '16px',
-              outline: 'none',
-              boxSizing: 'border-box',
-            }}
-          />
-          {error && (
-            <p className="text-primary text-sm text-center">Senha incorreta</p>
-          )}
+  return (
+    <div className="min-h-screen bg-background flex flex-col items-center justify-center px-4">
+      {/* Language Selector */}
+      <div className="flex gap-2 mb-8">
+        {LANGS.map(l => (
           <button
-            type="submit"
+            key={l.code}
+            onClick={() => handleLanguage(l.code)}
             style={{
-              width: '100%',
-              padding: '14px 24px',
-              borderRadius: '999px',
+              outline: 'none',
+              backgroundColor: language === l.code ? '#c8102e' : '#222222',
+              color: language === l.code ? '#ffffff' : '#aaaaaa',
               border: 'none',
-              backgroundColor: '#c8102e',
-              color: '#fff',
-              fontSize: '16px',
-              fontWeight: 600,
+              borderRadius: '999px',
+              padding: '6px 16px',
+              fontSize: '13px',
+              fontWeight: 500,
               cursor: 'pointer',
+              transition: 'background-color 0.2s, color 0.2s',
+              display: 'flex',
+              alignItems: 'center',
+              gap: '6px',
             }}
           >
-            Acessar
+            <span>{l.flag}</span>
+            <span>{l.label}</span>
           </button>
-        </form>
+        ))}
+      </div>
+
+      <div className="text-center">
+        <div className="text-4xl mb-3">🧠</div>
+        <h1 className="font-display text-2xl font-bold text-text-primary">
+          Neuro <span className="text-primary">Reconquista</span>
+        </h1>
+        <p className="text-text-muted text-sm mt-2">{t('common.loading')}</p>
       </div>
     </div>
   )

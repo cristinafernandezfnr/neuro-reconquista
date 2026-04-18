@@ -98,6 +98,17 @@ export const useAuth = () => {
   const signInWithMagicLink = async (email: string) => {
     if (isDemoSupabase()) return { error: new Error('Demo mode — use demo@teste.com') }
     try {
+      // Block access if user doesn't have protocol_access in the database
+      const { data: userRow } = await supabase
+        .from('users')
+        .select('protocol_access')
+        .eq('email', email)
+        .maybeSingle()
+
+      if (!userRow || !userRow.protocol_access) {
+        return { error: new Error('auth.access.denied') }
+      }
+
       const redirectTo = window.location.origin
       const { error } = await supabase.auth.signInWithOtp({
         email,

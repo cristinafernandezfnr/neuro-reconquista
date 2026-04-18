@@ -27,6 +27,13 @@ export type SubtopicType =
   | 'reconquest_actions'           // concrete reconquest steps
   | 'structured_reflection'        // guided journaling / analysis
   | 'mindset_reprogramming'        // belief / identity work
+  | 'emotional_regulation'
+  | 'reconquest_strategy'
+  | 'social_behavior'
+  | 'self_analysis'
+  | 'behavioral_action'
+  | 'celebration'
+  | 'commitment'
 
 export interface Exercise {
   id: string
